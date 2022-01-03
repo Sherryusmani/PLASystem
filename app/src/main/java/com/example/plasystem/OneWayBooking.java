@@ -12,11 +12,13 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -28,6 +30,7 @@ import java.util.Calendar;
 
 public class OneWayBooking extends AppCompatActivity {
     TextView book,from,to,date;
+    ImageView Back;
     private EditText PLA_airline,AirlineSeat,onewaydate;
     Button proceedticket;
     Spinner staticSpinner,dynamicSpinner;
@@ -40,12 +43,13 @@ public class OneWayBooking extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_one_way_booking);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         staticSpinner = findViewById(R.id.spinner1);
         dynamicSpinner = findViewById(R.id.spinner2);
+
         bookingDbRefrence = FirebaseDatabase.getInstance().getReference().child("OneWayRecords");
         book=findViewById(R.id.booking);
-
         from=findViewById(R.id.cityfrom);
         to=findViewById(R.id.cityto);
         date=findViewById(R.id.Date);
@@ -55,9 +59,15 @@ public class OneWayBooking extends AppCompatActivity {
         onewaydate=findViewById(R.id.onewaydate);
         PLA_airline=findViewById(R.id.PLA);
         proceedticket=findViewById(R.id.ticket);
+        Back = findViewById(R.id.backoneway);
 
-
-
+       Back.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent intent = new Intent(getApplicationContext(),BookingTicket.class);
+               startActivity(intent);
+           }
+       });
 
         proceedticket.setOnClickListener(v -> {
 
@@ -115,7 +125,7 @@ public class OneWayBooking extends AppCompatActivity {
         });
 
         mDateSetListener = (datePicker, year, month, day) -> {
-            month = month + 1;
+            day = day + 1;
             Log.d(TAG, "onDateSet: mm/dd/yyy: " + month + "/" + day + "/" + year);
 
             String date = month + "/" + day + "/" + year;

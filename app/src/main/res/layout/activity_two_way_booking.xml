@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TwoWayBooking"
+    android:background="#FFC107"
     android:orientation="vertical"
-    android:background="#FFC107">
+    tools:context=".TwoWayBooking">
+
+    <ImageView
+        android:id="@+id/backtreturn"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFC107"
+        android:padding="10dp"
+        android:src="@drawable/back" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="50dp"
-        android:layout_gravity="left">
-
+        android:layout_gravity="left"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
 
 
         <TextView
@@ -24,21 +29,22 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="12dp"
-            android:text="BOOK NOW"
             android:fontFamily="@font/muli_black"
+            android:text="BOOK NOW"
+            android:textAllCaps="true"
             android:textColor="@color/black"
-            android:textSize="40sp"
-            android:textAllCaps="true"/>
+            android:textSize="40sp" />
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="50dp"
         android:layout_gravity="left"
-        android:layout_marginLeft="10dp">
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/twoticket"
@@ -46,28 +52,27 @@
             android:layout_height="41dp"
             android:text="Ticket Information:    "
             android:textColor="@color/black"
-            android:textStyle="bold"
             android:textSize="20sp"
-            />
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/twowayticket"
             android:layout_width="wrap_content"
             android:layout_height="41dp"
+            android:background="#00000000"
             android:text="Return Ticket"
             android:textColor="#4A4949"
             android:textSize="20sp"
-            android:visibility="visible"
-            android:background="#00000000"
-            />
+            android:visibility="visible" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
         android:orientation="horizontal"
-        android:padding="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="left">
-
+        android:padding="10dp">
 
 
         <TextView
@@ -76,31 +81,29 @@
             android:layout_height="41dp"
             android:text="Your Location:    "
             android:textColor="@color/black"
-            android:textStyle="bold"
             android:textSize="20sp"
-            />
+            android:textStyle="bold" />
 
         <Spinner
 
             android:id="@+id/spin"
             android:layout_width="226dp"
             android:layout_height="42dp"
+            android:background="#00000000"
             android:ems="10"
             android:hint="from City"
-            android:background="#00000000"
-            android:visibility="visible"
-            />
+            android:visibility="visible" />
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dp"
         android:orientation="horizontal"
-        android:layout_marginTop="10dp"
-        android:padding="10dp"
-        android:layout_gravity="left">
-
+        android:padding="10dp">
 
 
         <TextView
@@ -109,30 +112,28 @@
             android:layout_height="41dp"
             android:text="Destination:         "
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <Spinner
 
             android:id="@+id/spin2"
             android:layout_width="226dp"
             android:layout_height="42dp"
+            android:background="#00000000"
             android:ems="10"
             android:hint="from City"
-            android:background="#00000000"
-            android:visibility="visible"
-            />
+            android:visibility="visible" />
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="left"
         android:orientation="horizontal"
-
-        android:padding="10dp"
-        android:layout_gravity="center">
-
+        android:padding="10dp">
 
 
         <TextView
@@ -141,8 +142,8 @@
             android:layout_height="41dp"
             android:text="No. of Passengers :    "
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
 
@@ -152,18 +153,17 @@
             android:background="#00000000"
             android:ems="10"
             android:hint="2 - 4"
-            android:textAlignment="center"
-             />
+            android:textAlignment="center" />
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="left"
         android:orientation="horizontal"
-        android:padding="10dp"
-        android:layout_gravity="left">
-
+        android:padding="10dp">
 
 
         <TextView
@@ -172,33 +172,31 @@
             android:layout_height="41dp"
             android:text="Date :                    "
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/twowaydate"
             android:layout_width="226dp"
             android:layout_height="42dp"
-            android:hint="Select Date"
-            android:id="@+id/twowaydate"
+            android:layout_centerHorizontal="true"
+            android:background="#00000000"
             android:clickable="false"
             android:cursorVisible="false"
             android:focusable="false"
             android:focusableInTouchMode="false"
-            android:layout_centerHorizontal="true"
-            android:textSize="20sp"
-            android:background="#00000000"/>
-
+            android:hint="Select Date"
+            android:textSize="20sp" />
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="left"
         android:orientation="horizontal"
-
-        android:padding="10dp"
-        android:layout_gravity="left">
-
+        android:padding="10dp">
 
 
         <TextView
@@ -207,19 +205,20 @@
             android:layout_height="41dp"
             android:text="Ride Type :           "
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
 
             android:id="@+id/PLA"
             android:layout_width="226dp"
             android:layout_height="42dp"
-            android:ems="10"
-            android:hint="Economy Class"
             android:background="#00000000"
-            android:visibility="visible"
-            />
+            android:ems="10"
+            android:hint="Economy Ride"
+            android:visibility="visible" />
+
+
 
 
     </LinearLayout>
@@ -228,18 +227,17 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="60dp"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/ticket"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Confirm Booking"
-            android:textSize="15sp"
             android:textColor="#FFC107"
-            />
+            android:textSize="15sp" />
 
     </LinearLayout>
 

@@ -9,10 +9,12 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -30,6 +32,7 @@ public class TwoWayBooking extends AppCompatActivity {
     Spinner staticSpinner,dynamicSpinner;
     DatabaseReference bookingDbRefrence;
     Button proceedticket;
+    ImageView Back;
     DatePickerDialog.OnDateSetListener mDateSetListener;
      static final String TAG = "TwoWayBooking";
 
@@ -38,6 +41,7 @@ public class TwoWayBooking extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_two_way_booking);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         from=findViewById(R.id.cityfrom);
         to=findViewById(R.id.cityto);
         date=findViewById(R.id.Date);
@@ -51,6 +55,16 @@ public class TwoWayBooking extends AppCompatActivity {
         twodate=findViewById(R.id.twowaydate);
         PLA_airline=findViewById(R.id.PLA);
         proceedticket=findViewById(R.id.ticket);
+        Back = findViewById(R.id.backtreturn);
+
+        Back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),BookingTicket.class);
+                startActivity(intent);
+            }
+        });
+
 
         proceedticket.setOnClickListener(v -> {
 

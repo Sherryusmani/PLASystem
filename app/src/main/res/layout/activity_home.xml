@@ -23,7 +23,7 @@
     <ImageView
         android:layout_width="364dp"
         android:layout_height="293dp"
-        android:layout_marginLeft="25dp"
+        android:layout_gravity="center"
         android:background="@drawable/logo1" />
 
     <LinearLayout
