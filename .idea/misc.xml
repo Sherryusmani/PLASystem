@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem/PLASystem/app/src/main/res/drawable/blue_border_rounded_cornwe.xml" value="0.1984375" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem/PLASystem/app/src/main/res/drawable/blue_fill__rounded_color.xml" value="0.13333333333333333" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem/PLASystem/app/src/main/res/layout/activity_booking_ticket.xml" value="0.1" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem/PLASystem/app/src/main/res/layout/activity_flight_status.xml" value="0.18385416666666668" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem/PLASystem/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem/PLASystem/app/src/main/res/layout/activity_login.xml" value="0.15" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem/PLASystem/app/src/main/res/layout/activity_main.xml" value="0.18385416666666668" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem/PLASystem/app/src/main/res/layout/activity_one_way_booking.xml" value="0.25" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem/PLASystem/app/src/main/res/layout/activity_sign_up_with_email.xml" value="0.18385416666666668" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem/PLASystem/app/src/main/res/layout/activity_two_way_booking.xml" value="0.18385416666666668" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem/PLASystem/app/src/main/res/layout/activity_your_tickets.xml" value="0.18385416666666668" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem_FA17-BSSE-0084_AM_SyedUsmanHussain/PLASystem/app/src/main/res/layout/activity_booking_ticket.xml" value="0.1" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem_FA17-BSSE-0084_AM_SyedUsmanHussain/PLASystem/app/src/main/res/layout/activity_flight_status.xml" value="0.1983695652173913" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem_FA17-BSSE-0084_AM_SyedUsmanHussain/PLASystem/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem_FA17-BSSE-0084_AM_SyedUsmanHussain/PLASystem/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem_FA17-BSSE-0084_AM_SyedUsmanHussain/PLASystem/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem_FA17-BSSE-0084_AM_SyedUsmanHussain/PLASystem/app/src/main/res/layout/activity_one_way_booking.xml" value="0.22" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem_FA17-BSSE-0084_AM_SyedUsmanHussain/PLASystem/app/src/main/res/layout/activity_sign_up_with_email.xml" value="0.18" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem_FA17-BSSE-0084_AM_SyedUsmanHussain/PLASystem/app/src/main/res/layout/activity_two_way_booking.xml" value="0.1983695652173913" />
+        <entry key="..\:/Portal/AndroidStudioProjects/PLASystem_FA17-BSSE-0084_AM_SyedUsmanHussain/PLASystem/app/src/main/res/layout/activity_your_tickets.xml" value="0.1983695652173913" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/drawable/background_header.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/drawable/background_ticket.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/drawable/ic_local_airport_gray.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/font/comfortaa_light.xml" value="0.1609375" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_booking_ticket.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_flight_status.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_for_two_way.xml" value="0.15" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_home.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_login.xml" value="0.21" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_main.xml" value="0.11354166666666667" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_one_way_booking.xml" value="0.21" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_sign_up_with_email.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_two_way_booking.xml" value="0.21" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_twoway_tickets.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_your_tickets.xml" value="0.12" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/flight_layout.xml" value="0.18" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/tickets_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/twoway_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/Downloads/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/twowayticket_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/drawable/background_header.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/drawable/background_ticket.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/drawable/blue_border_rounded_cornwe.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/drawable/cursor_color.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/drawable/ic_local_airport_gray.xml" value="0.24814814814814815" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_booking_ticket.xml" value="0.25" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_flight_status.xml" value="0.278125" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_for_two_way.xml" value="0.278125" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_main.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_one_way_booking.xml" value="0.25" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_sign_up_with_email.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_two_way_booking.xml" value="0.278125" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_twoway_tickets.xml" value="0.278125" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/activity_your_tickets.xml" value="0.278125" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/flight_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/tickets_layout.xml" value="0.33" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/twoway_layout.xml" value="0.278125" />
+        <entry key="..\:/Users/Sherry/AndroidStudioProjects/PLASystem/PLASystem/PLASystem/app/src/main/res/layout/twowayticket_layout.xml" value="0.278125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

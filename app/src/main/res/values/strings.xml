@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">BOOK YOUR RIDE</string>
+    <string name="username">User Email</string>
+    <string name="login">Login</string>
+    <string-array name="Depart_aray">
+        <item>Select Your City</item>
+        <item>Karachi</item>
+        <item>Bahawalpur</item>
+        <item>Chitral</item>
+        <item>Dalbandin</item>
+        <item>Dera Ghazi Khan</item>
+        <item>Dera Ismail Khan</item>
+        <item>Gilgit</item>
+        <item>Gawadar</item>
+        <item>Islamabad</item>
+        <item>Lahore</item>
+        <item>Moenjodaro</item>
+        <item>Multan</item>
+        <item>Nawabshah</item>
+        <item>Panjgur</item>
+        <item>Peshawar</item>
+        <item>Quetta</item>
+        <item>Rahim Yar khan</item>
+        <item>Saidu Sharif</item>
+        <item>Sialkot</item>
+        <item>Skardu</item>
+        <item>Sukkur</item>
+        <item>Turbat</item>
+        <item>Zhob</item>
+
+
+    </string-array>
+
+    <string-array name="Airport_aray">
+        <item>Select Destination</item>
+        <item>Karachi</item>
+        <item>Bahawalpur</item>
+        <item>Chitral</item>
+        <item>Dalbandin</item>
+        <item>Dera Ghazi Khan</item>
+        <item>Dera Ismail Khan</item>
+        <item>Gilgit</item>
+        <item>Gawadar</item>
+        <item>Islamabad</item>
+        <item>Lahore</item>
+        <item>Moenjodaro</item>
+        <item>Multan</item>
+        <item>Nawabshah</item>
+        <item>Panjgur</item>
+        <item>Peshawar</item>
+        <item>Quetta</item>
+        <item>Rahim Yar khan</item>
+        <item>Saidu Sharif</item>
+        <item>Sialkot</item>
+        <item>Skardu</item>
+        <item>Sukkur</item>
+        <item>Turbat</item>
+        <item>Zhob</item>
+
+    </string-array>
+
+    <string-array name="RideType_aray">
+        <item>Select Ride Type</item>
+        <item>Mini With no AC</item>
+        <item>Premium With AC</item>
+    </string-array>
+
+
+</resources>

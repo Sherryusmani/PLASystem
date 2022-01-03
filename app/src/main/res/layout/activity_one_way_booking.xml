@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OneWayBooking"
+    android:orientation="vertical"
+    android:background="#FFC107"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+
+
+
+        <TextView
+            android:id="@+id/booking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="12dp"
+            android:text="BOOK NOW"
+            android:fontFamily="@font/muli_black"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textAllCaps="true"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/oneticket"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="Ticket Information:    "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/onewayticket"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="Single Ticket"
+            android:textColor="#4A4949"
+            android:textSize="20sp"
+            android:visibility="visible"
+            android:background="#00000000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left">
+
+
+
+        <TextView
+            android:id="@+id/cityfrom"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="Your Location:    "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <Spinner
+
+            android:id="@+id/spinner1"
+            android:layout_width="226dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:hint="from City"
+            android:background="#00000000"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left">
+
+
+
+        <TextView
+            android:id="@+id/cityto"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="Destination:         "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <Spinner
+
+            android:id="@+id/spinner2"
+            android:layout_width="226dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:hint="To City"
+            android:background="#00000000"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left">
+
+
+
+        <TextView
+            android:id="@+id/AirlineSeat"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="No. of Passengers :    "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <EditText
+
+            android:id="@+id/Seat"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:background="#00000000"
+            android:ems="10"
+            android:hint="2 - 4"
+            android:textAlignment="center"
+             />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_gravity="left">
+
+
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="Date :                    "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/onewaydate"
+            android:layout_width="226dp"
+            android:layout_height="42dp"
+            android:layout_centerHorizontal="true"
+            android:background="#00000000"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="Select Date"
+            android:inputType="date"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left">
+
+
+
+        <TextView
+            android:id="@+id/airline"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:text="Ride Type :           "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
+        <EditText
+
+            android:id="@+id/PLA"
+            android:layout_width="226dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:hint="Mini"
+            android:background="#00000000"
+            android:visibility="visible"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Booking"
+            android:textSize="15sp"
+            android:textColor="#FFC107" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

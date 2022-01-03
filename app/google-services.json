@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589192753247",
+    "project_id": "plasystem-3c7a5",
+    "storage_bucket": "plasystem-3c7a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589192753247:android:149b50bf6f00d57cf3abea",
+        "android_client_info": {
+          "package_name": "com.example.plasystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589192753247-fjh83l18j008neqt5q2hcm98s5utkvq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9GZ4XUp4gvTYHHRQxv_unefgKWa0BYT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589192753247-fjh83l18j008neqt5q2hcm98s5utkvq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
